@@ -14,7 +14,7 @@ ReactDOM.render(
     <BaseLayout>
 			<ScrollToTop>
       <Switch>
-        <Route path="/" component={MainPage} />
+        <Route path="/" component={CampaignUserView} />
       </Switch>
 			</ScrollToTop>
     </BaseLayout>

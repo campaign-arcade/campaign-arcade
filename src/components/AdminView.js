@@ -4,12 +4,10 @@ import "../main.css";
 import RealTime from "./RealTime.js"
 import StatTracking from "./StatTracking.js"
 
-export default class MainPage extends Component {
+export default class AdminView extends Component {
   render() {
     return (
-      <div className="mainpage">
-        <RealTime/>
-				<StatTracking/>
+      <div className="adminview">
       </div>
     );
   }
